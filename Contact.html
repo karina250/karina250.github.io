@@ -6,59 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="icon" href="imagenes/feliz.jpg">
+    <link href="styles/estilopersonal.css" rel="stylesheet" type="text/css">
 </head>
 
-<body background="imagenes/fondo2.jpg">
+<body>
 
     <header>
-        <button><a href="index.html">INICIO </a> </button>
-        <button><a href="About.html">ACERCA DE MI</a></button>
-        <button><a href="Contact.html">CONTACTAME</a></button>
-        <h1>Contactame: </h1>
+        <nav>
+
+            <ul>
+                <li><a href="index.html">INICIO </a></li>
+                <li><a href="About.html">ACERCA DE MI</a></li>
+                <li><a href="Contact.html">CONTACTAME</a></li>
+            </ul>
+        </nav>
+
 
     </header>
+
     <section>
-        <h2>Encuentrame en:</h2>
-        <table border="0">
-            <tr>
-                <td>Correo: </td>
-                <td>csalazarh16_1@unc.edu.pe </td>
-            </tr>
-            <tr>
-                <td>facebook: </td>
-                <td>
-                    <a href="https://www.facebook.com/karina.salazar.984">karina Salazar</a> </td>
-            </tr>
-        </table>
 
-        <table border="0" align="center">
-            <caption> O DEJAME UN COMENTARIO</caption>
-            <tr>
-                <td>Nombre: </td>
-                <td><input type="text" name="correo"> </td>
-
-            </tr>
-            <tr>
-                <td>Correo: </td>
-                <td><input type="text" name="correo"> </td>
-            </tr>
-            <tr>
-                <td>Celular </td>
-                <td><input type="text" name="correo"> </td>
-            </tr>
-            <tr>
-                <td>Comentario: </td>
-                <td><input type="text" name="correo"> </td>
-            </tr>
-            <tr>
-                <td><input type="submit" name="Enviar"> </td>
-            </tr>
-        </table>
+        <div class="rexto">
+            <h2>Contactame al:</h2>
+            <h3>
+                <img height="1.5%" width="1.5%" src="imagenes/phone.png">: 927248522
+            </h3>
+            <h2>O escribeme un mensaje:</h2>
+            <form>
+                <input type="text" name="correo" placeholder="Correo">
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="text" name="telefono" placeholder="Teléfono">
+                <textarea name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                <input type="submit" name="Enviar" id="boton">
+            </form>
+        </div>
     </section>
+
     <footer>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/?hl=es-la" target="_blank"><img height="20" width="20" src="imagenes/instagram-sketched.png"></a>
+            </li>
+            <li>
+                <a href="https://mail.google.com/" target="_blank"><img height="20" width="20" src="imagenes/gmail (1).png"></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/karina.salazar.984" target="_blank"><img height="20" width="20" src="imagenes/facebook.png"></a>
+            </li>
+        </ul>
         <address> <strong>&copy; Autor: Cinthya Karina Salazar</strong><br/>
             <abbr title="UNIVERSIDAD NACIONAL DE CAJAMARCA">UNC</abbr><br/>
-            Cajamarca 03 de septiembre de 2020
+            Cajamarca - septiembre de 2020
         </address>
     </footer>
 </body>
