@@ -7,80 +7,70 @@
     <title>About</title>
     <link rel="icon" href="imagenes/feliz.jpg">
     <link href="styles/estilopersonal.css" rel="stylesheet" type="text/css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="pink darken-2">
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="right hide-on-med-and-down ">
+                    <li><a href="index.html">INICIO </a></li>
+                    <li><a href="About.html">ACERCA DE MI</a></li>
+                    <li><a href="Contact.html">CONTACTAME</a></li>
+                    <li><a href="Carta05.html">CARTA</a></li>
+                </ul>
+            </div>
 
-            <ul>
-                <li><a href="index.html">INICIO </a></li>
-                <li><a href="About.html">ACERCA DE MI</a></li>
-                <li><a href="Contact.html">CONTACTAME</a></li>
-            </ul>
         </nav>
     </header>
-    <section>
-        <h1>Cinthya Karina Salazar Huamanjulca</h1>
+    <div class="separardiv">
 
-        <img height="8%" width="13%" src="imagenes/fotosPersonal.jpeg">
+        <div class="separar">
+            <h2>Cinthya Salazar Huamanjulca</h2>
+            <h3>
+                Soy estudiante de Ingenieria de Sistemas en la Universidad Nacional de Cajamarca y me encuentro cursando el quinto año. Espero desempeñarme como Analista de Sistemas al concluir la carrera y obtener el titulo. profesional, ademas de tener un negocio propio
+                de totas y bocaditos, tambien deseo viajar y conocer todo el Peru. ....
+            </h3>
+        </div>
+        <div class="separar">
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="imagenes/fotosPersonal.jpeg"></a>
+                <a class="carousel-item" href="#two!"><img src="imagenes/imagenpersonal2.jpg"></a>
+                <a class="carousel-item" href="#three!"><img src="imagenes/imagenpersonal7.jpg"></a>
+                <a class="carousel-item" href="#four!"><img src="imagenes/imagenpersonal4.jpg"></a>
+                <a class="carousel-item" href="#five!"><img src="imagenes/imagenpersonal6.jpg"></a>
+            </div>
+        </div>
 
-    </section>
+    </div>
 
-    <section>
-        <h2><ins>Algo Sobre Mi!!....</ins></h2>
+    <div class="seccionAlgo">
         <h3>Ambiente Profesional</h3>
         <div class="conteiner">
 
             <div class="card">
                 <a href="https://www.senati.edu.pe/" target="_blank"><img src="imagenes/senati.png"></a>
-                <h3>Asistente Administrativo</h3>
+                <h4>Asistente Administrativo</h4>
             </div>
             <div class="card">
                 <a href="http://www.unc.edu.pe/" target="_blank"><img src="imagenes/unc2.jpg"></a>
-                <h3>Estudiante de Ingenieria de Sistemas</h3>
+                <h4>Estudiante de Ingenieria de Sistemas</h4>
             </div>
             <div class="card">
                 <a a href="http://www.unc.edu.pe/" target="blank">
                     <img src="imagenes/Ingles.jpg">
                 </a>
-                <h3>Ingles Elemental</h3>
+                <h4>Ingles Elemental</h4>
             </div>
-
         </div>
-    </section>
-
-
-    <section class="sobMi">
-
-        <div class="item">
-            <h3>Mis hobbies</h3>
-            <ul>
-                <li>Preparar Postres</li>
-                <li>Mirar Peliculas</li>
-                <li>Dormir</li>
-                <li>Hacer Manualidades</li>
-            </ul>
-        </div>
-
-        <div class="item">
-            <h3>Comida Favorita</h3>
-            <ul>
-                <li>Tallarines Rojos</li>
-                <li>Arroz Verde</li>
-                <li>Aji de Gallina</li>
-            </ul>
-
-        </div>
-
-    </section>
-
-    <section>
-
-        <h2><ins>Mi Familia - Lo más importante en mi vida</ins></h2>
+    </div>
+    <div>
+        <h3><b>Mi bonita familia</b></h3>
         <div class="div_familia">
-            <p><b>Mi familia esta compuesta por mi mamá, mis hermanos Ronald y Daniel, mi hija Camila Belén, mis sobrinos Joaquin y Santiago y mi cuñada Alejandra</b></p>
-
             <div class="contenedor">
                 <div class="box">
                     <img src="imagenes/dani.jpg">
@@ -127,7 +117,33 @@
 
         </div>
 
-    </section>
+    </div>
+    <div class=".separardivsob">
+        <div class="sobMi">
+            <h3>Mis hobbies</h3>
+            <ul>
+                <li>Preparar Postres</li>
+                <li>Mirar Peliculas</li>
+                <li>Dormir</li>
+                <li>Hacer Manualidades</li>
+            </ul>
+        </div>
+        <div class="sobMi">
+            <h3>Comida Favorita</h3>
+
+            <ul>
+                <li>Tallarines Rojos</li>
+                <li>Arroz Verde</li>
+                <li>Aji de Gallina</li>
+                <li>Chaufa de Mariscos</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+
     <footer>
         <ul>
             <li>
@@ -146,6 +162,17 @@
             Cajamarca - septiembre de 2020
         </address>
     </footer>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems);
+        });
+    </script>
 </body>
+
+
 
 </html>

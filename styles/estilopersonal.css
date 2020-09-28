@@ -9,35 +9,36 @@ body {
 
 h1 {
     font-family: 'Courgette', cursive;
-    font-size: 35px;
+    font-size: 40%;
 }
 
 h2 {
     font-family: 'Courgette', cursive;
-    color: rgb(196, 50, 74);
-    font-size: 30px;
+    color: rgb(189, 31, 97);
 }
 
 nav {
     width: 100%;
     margin: auto;
-    background-color: rgb(196, 50, 74);
-    text-align: left;
+    background-color: rgb(189, 31, 97);
 }
 
 h3,
+h4,
 blockquote,
 p {
     font-family: 'Allura', cursive;
-    font-size: 25px;
+    text-align: center;
 }
 
 nav ul {
     list-style: none;
+    text-align: right;
 }
 
-ul li {
+nav ul li {
     display: inline-block;
+    text-align: right;
 }
 
 li a {
@@ -62,7 +63,7 @@ footer {
     height: auto;
     margin: auto;
     color: #ffff;
-    margin-top: 20%;
+    margin-top: 1%;
     text-align: center;
 }
 
@@ -72,12 +73,12 @@ footer ul li {
     height: 55px;
     margin: 10px 20px;
     border-radius: 50%;
-    background: rgb(196, 50, 74);
+    background: rgb(189, 31, 97);
 }
 
 footer address {
     padding: 15px 10px;
-    background: rgb(196, 50, 74);
+    background: rgb(189, 31, 97);
 }
 
 .contenedor {
@@ -92,11 +93,11 @@ footer address {
 
 .box {
     width: 500px;
-    height: 300px;
+    height: 350px;
     position: relative;
     overflow: hidden;
     margin: 3px;
-    border: 3px solid rgb(196, 50, 74);
+    border: 1px solid rgb(236, 231, 231);
 }
 
 .box img {
@@ -120,23 +121,18 @@ footer address {
     transform: scale(1);
 }
 
-.sobMi {
-    color: beige;
-    padding: 5%;
-}
-
 .item {
-    background: rgb(196, 50, 74);
     width: 100%;
-    height: 90px;
-    ;
+    height: 70%;
+    text-align: center;
+    font-size: 40%;
 }
 
 .item ul li {
     color: #ffff;
 }
 
-form {
+.form {
     width: 400px;
     margin: auto;
     background: rgba(0, 0, 0, 0.4);
@@ -148,15 +144,19 @@ form {
 
 input,
 textarea {
-    width: 100%;
-    margin-bottom: 25px;
+    text-align: center;
+    width: 5%;
+    margin-bottom: 20px;
     padding: 15px;
     box-sizing: border-box;
 }
 
+.formulario {
+    align-content: center;
+}
+
 #boton {
-    background: rgb(196, 50, 74);
-    color: cornsilk;
+    align-content: center;
 }
 
 #boton:hover {
@@ -189,31 +189,38 @@ textarea {
 }
 
 #fotopersonal {
-    width: 20%;
-    height: 10%;
-    border-radius: 6%;
+    width: 250px;
+    height: 250px;
+    border-radius: 90%;
+}
+
+.seccionAlgo {
+    background-color: rgb(167, 154, 160);
+    padding: 0.3em;
+    text-align: center;
+    height: 80%;
 }
 
 .conteiner {
     width: 100%;
-    max-width: 1200px;
-    height: 250px;
+    height: 350px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    background-color: rgb(245, 241, 243);
 }
 
 .conteiner .card {
     width: 300px;
-    height: 280px;
+    height: 290px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 0.6s;
-    background: rgb(196, 50, 74);
+    background: rgb(238, 229, 233);
 }
 
 .conteiner .card:hover {
@@ -223,9 +230,49 @@ textarea {
 
 .conteiner .card img {
     width: 330px;
-    height: 220px;
+    height: 200px;
 }
 
 .conteiner .card h4 {
-    font-weight: 600;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.separardiv {
+    overflow: hidden;
+    padding: 1em;
+}
+
+.separar {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.separardiv h3 {
+    color: rgb(107, 15, 72);
+    font-size: 35px;
+    font-weight: inherit;
+    text-align: center;
+}
+
+.separardiv h2 {
+    color: rgb(214, 35, 125);
+    font-size: 30x;
+}
+
+.separardivsob {
+    overflow: hidden;
+    padding: 2em;
+}
+
+.sobMi {
+    background-color: rgb(245, 241, 243);
+    width: 50%;
+    height: 50%;
+    float: left;
+    color: rgb(214, 35, 125);
+    padding: 2em;
+    text-align: center;
 }

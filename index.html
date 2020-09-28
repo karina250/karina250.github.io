@@ -7,45 +7,78 @@
     <title>Pagina Personal</title>
     <link rel="icon" href="imagenes/feliz.jpg">
     <link href="styles/estilopersonal.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
 </head>
 
 <body>
 
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">INICIO </a></li>
-                <li><a href="About.html">ACERCA DE MI</a></li>
-                <li><a href="Contact.html">CONTACTAME</a></li>
-                <li><a href="Carta05.html">CARTA</a></li>
-            </ul>
+        <nav class="pink darken-2">
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="right hide-on-med-and-down ">
+                    <li><a href="index.html">INICIO </a></li>
+                    <li><a href="About.html">ACERCA DE MI</a></li>
+                    <li><a href="Contact.html">CONTACTAME</a></li>
+                    <li><a href="Carta05.html">CARTA</a></li>
+                </ul>
+            </div>
+
         </nav>
     </header>
 
-
-    <div class="imagendiv">
-        <img src="imagenes/images.jpg" alt="">
-        <div class="rexto">
-            <h1>Bienvenido !!!...</h1>
-            <h1>Hola! soy Cinthya Salazar</h1>
-            <div>
-                <img id="fotopersonal" src="imagenes/imagen1.jpeg" alt="">
-            </div>
-            <div class="item">
-                <blockquote>
-                    Soy estudiante de Ingenieria de Sistemas en la Universidad Nacional de Cajamarca y me encuentro cursando el quinto año. Espero desempeñarme como Analista de Sistemas al concluir la carrera y obtener el titulo. profesional, ademas de tener un negocio propio
-                    de totas y bocaditos
-                </blockquote>
-            </div>
-        </div>
-    </div>
-
-    <section>
-
+    <div class="item">
         <h2><em>"Da siempre lo mejor de ti. Lo que plantes ahora, lo cosecharas mas tarde"
         </em></h2>
+    </div>
 
-    </section>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img height="600px" width="80%" src="imagenes/foto.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Hola</h1>
+                    <img id="fotopersonal" src="imagenes/fotosPersonal.jpeg">
+                    <h1>Soy, Cinthya Karina Salazar Huamanjulca</h1>
+                    <h3>Estudiante de Ingenieria de Sistemas</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img height="600px" src="imagenes/flor2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                    <h1>Si lo puedes soñar, lo puedes hacer!...</h1>
+                    <h3>Wald Disney</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img height="600px" src="imagenes/flor3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Un viaje de millas empieza con un primer paso</h1>
+                    <h3>Benjamin Frankiln</h3>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 
     <footer>
