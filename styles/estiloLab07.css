@@ -1,0 +1,31 @@
+.item1 {
+    overflow: hidden;
+}
+
+.item {
+    padding: 1em;
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+#lab {
+    background-color: rgb(59, 59, 245);
+    margin: 0.1em;
+    color: cornsilk;
+}
+
+#lab1 {
+    background-color: red;
+    margin: 0.1em;
+    color: cornsilk;
+}
+
+div {
+    background: rgb(219, 224, 220);
+    width: 55%;
+}
+
+h2 {
+    text-align: center;
+}

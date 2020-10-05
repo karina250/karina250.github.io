@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab07</title>
+    <link rel="stylesheet" href="styles/estiloLab07.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="item1">
+        <h2>Lab 07: Taller de JavaScript</h2>
+        <div class="item">
+            <form>
+
+                <lu><input class="a" id="lab" value="Nombre y Apellidos:" type="text"></lu>
+                <lu><input type="text" name="nombre" id="nombre" required></lu>
+                </br>
+                <lu> <input class="a" id="lab" value="Fecha de Nacimiento:" type="text"></lu>
+                <lu><input id="fecha" type="date" name="fecha" required></lu>
+
+            </form>
+        </div>
+        <div class="item">
+
+            <button class="btn btn-warning" onclick="calcular_edad();nombre();nombre1();">Extraer</button>
+            <button class="btn btn-danger" onclick="cambio_color();cambiar_Color1();">colorear</button>
+        </div>
+    </div>
+    <div class="item1">
+        <div class="item">
+            <form>
+                <lu><input class="a" id="lab" value="Apellido Paterno:" type="text"></lu>
+                <lu><input type="text" id="appaterno" name="paterno"></lu>
+                </br>
+
+                <lu><input class="a" id="lab" value="Apelido Materno:" type="text"></lu>
+                <lu><input type="text" id="apmaterno" name="materno"></lu>
+                </br>
+
+                <lu><input class="a" id="lab" value="Nombres:" type="text"></lu>
+                <lu><input type="text" name="nombres" id="nombre1"></lu>
+
+            </form>
+        </div>
+        <div class="item">
+            <form>
+                <lu><input class="b" id="lab1" value="Longitud del Apellido:" type="text"></lu>
+                <lu><input id="longitud" type="text" name="paterno"></lu>
+                </br>
+
+                <lu><input class="b" id="lab1" value="Edad:" type="text"></lu>
+                <lu><input id="edad" type="tex" name="naterno"></lu>
+                </br>
+
+                <lu><input class="b" id="lab1" value="Mes:" type="text"></lu>
+                <lu><input id="mes" type="tex" name="nombres"></lu>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="script/lab07.js"></script>
+</body>
+
+</html>
