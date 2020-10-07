@@ -1,1 +1,28 @@
-.card {}
+body {
+    width: 83%;
+    padding: 1em;
+}
+
+button {
+    width: 180px;
+}
+
+.d1 {
+    color: crimson;
+}
+
+.d2 {
+    color: rgb(231, 184, 28);
+}
+
+.d3 {
+    color: rgb(199, 16, 206);
+}
+
+.d4 {
+    color: rgb(220, 173, 20);
+}
+
+.card {
+    height: 100%;
+}
