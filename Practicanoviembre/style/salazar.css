@@ -1,5 +1,4 @@
 body {
-    width: 83%;
     padding: 1em;
 }
 
@@ -25,4 +24,22 @@ button {
 
 .card {
     height: 100%;
+    border-color: orange !important;
+}
+
+.colorpurple {
+    background-color: darkmagenta !important;
+    border: none;
+}
+
+img {
+    padding-top: 20px;
+}
+
+input {
+    border: none;
+    font-style: italic;
+    padding: 1em;
+    width: 100%;
+    text-align: right;
 }
